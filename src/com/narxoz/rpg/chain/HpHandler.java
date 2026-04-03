@@ -7,6 +7,6 @@ public class HpHandler extends DefenseHandler {
     @Override
     public void handle(int incomingDamage, ArenaFighter target) {
         target.takeDamage(incomingDamage);
-        System.out.println("[HP] Hero gets " + incomingDamage + " damage! Current health: " + target.getHealth());
+        System.out.println("[HP] Hero gets " + incomingDamage + " units of damage! Current health: " + target.getHealth());
     }
 }
